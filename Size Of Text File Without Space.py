@@ -1,0 +1,12 @@
+def show():
+    f1=open("D:\\Book.txt")
+    r1=f1.read()
+    print("File before removing:-")
+    print(r1)
+    print("Length of File before Removing=",len(r1))
+    r1=r1.replace(" ","")
+    r1=r1.rstrip("\n")
+    print("File before removing:-")
+    print(r1)
+    print("Length of File after Removing=",len(r1))
+show()
